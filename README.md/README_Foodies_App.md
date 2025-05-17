@@ -1,0 +1,95 @@
+# Foodies - React Native Food Delivery App
+
+**Foodies** is a beautifully designed and fully functional food delivery mobile application built using **React Native** and **Firebase**. It allows users to explore restaurants, browse menus, place orders, and track them in real-time — all in one seamless experience.
+
+---
+
+## 🚀 Features
+
+Here are the key features of the Foodies app:
+
+- **User Authentication** – Sign up and log in using Firebase Authentication (Email & Password).
+
+- **Restaurant Listing** – Browse a curated list of restaurants with ratings and categories.
+
+- **Food Menu & Details** – View detailed food menus with descriptions, images, and pricing.
+
+- **Add to Cart** – Add and remove food items from your cart with quantity control.
+
+- **Checkout Flow** – Place orders with a simplified checkout process.
+
+- **Real-Time Order Tracking** – Track order status in real time using Firebase Realtime Database.
+
+- **Search Functionality** – Instantly search for restaurants or food items.
+
+- **User Profile** – View and edit user information and see past orders.
+
+- **Attractive UI** – Clean, responsive and mobile-optimized user interface using React Native components.
+
+---
+
+## 📱 Screenshots
+
+
+
+---
+
+## ⚙️ Tech Stack
+
+- **React Native** – Core framework for cross-platform mobile app development.
+- **Firebase** – Used for Authentication, Firestore (database), and Realtime Database.
+- **CLI** – For development, testing, and deployment.
+- **React Navigation** – Handles screen-to-screen navigation.
+- **Redux Toolkit/Context API** – For state management across the app.
+- **Lottie** – For animations and loading screens.
+
+---
+
+## 🔧 Installation & Setup
+
+Follow these steps to run the app locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/nikhilchoudhary194/foodies.git
+cd foodies
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+> Make sure you have **Node.js**, **npm**, and **Expo CLI** installed globally.
+
+---
+
+## 🔐 Firebase Configuration
+
+1. Go to [Firebase Console](https://console.firebase.google.com/).
+2. Create a new project.
+3. Enable **Authentication** (Email & Password).
+4. Set up **Cloud Firestore** and **Realtime Database**.
+5. Copy your Firebase config and paste it into your `firebase.js` file.
+
+---
+
+## 🤝 Contributions
+
+Contributions are always welcome!  
+If you'd like to improve this project, feel free to fork the repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this app with attribution.
+
+---
+
+## ✨ Developed By
+
+**[Nikhil Choudhary]**  
+Passionate Mobile Developer | React Native Enthusiast
